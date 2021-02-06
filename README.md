@@ -21,14 +21,17 @@ ___
 
 ## Emphasis
 
-Italic characters between *asterisks* or _underscores_ 
+Italic characters between *asterisks* or _underscores_
+
 Strong characters between double **asterisks** or double __underscores__
+
 Scratch characters between ~~tildes~~
 
 
 ## Links
 
 [regular link](https://github.com/hernanimedeiros)
+
 [regular link](https://github.com/hernanimedeiros "this is title!")
 
 
@@ -64,17 +67,20 @@ Scratch characters between ~~tildes~~
 
 A piece of `inline code`
 
-Intended code (4 spaces)
+Intended code (4 spaces):
+
     // comments
     line 1
     line 2
 
 Block code delimeted:
+
 ```
 I am a proud block code!
 ```
 
-Block code with syntax highlights
+Block code with syntax highlights:
+
 ``` js
 function myFunction(p1, p2) {
     var result = p1 * p2
@@ -84,7 +90,66 @@ function myFunction(p1, p2) {
 ```
 
 
-## SHA references
+## Tables
+
+Left aligned columns:
+
+| Items  | Description |
+| -------| ----------- |
+| item 1 | This descri |
+| item 2 | This description is out of boundaries? |
+| item 3 larger! | This description is out of boundaries? |
+
+Right aligned columns:
+
+| Items  | Description |
+| ------:| -----------:|
+| item 1 | Description |
+
+
+## Task list
+
+- [x] Done
+- [x] This one already done
+- [x] This one I just finished now!
+- [ ] I will do it tomorow
+
+
+## Images
+
+Regular image:
+
+![Vue logo](https://vuejs.org/images/logo.png "The Vue logo")
+
+
+Image with footenote:
+
+![Alt text][image_id]
+
+[image_id]:https://nuxtjs.org/logos/nuxt-emoji.png "The Nuxt logo"
+
+
+## Typographic replacements
+
+* (c) (C) (r) (R) (tm) (TM) (p) (P) +-
+* test.. test... test..... test?..... test!....
+* !!!!!! ???? ,,  -- ---
+* "Smartypants, double quotes" and 'single quotes'
+
+
+### Subscript/Superscript
+
+* Subscript: 29<sup>th</sup>
+* Superscript: H<sub>2</sub>O
+
+
+## Emojies
+
+* Classic: :wink: :crush: :cry: :tear: :laughing: :yum:
+
+## Only for descriptions and comments of Issues and Pull Requests
+
+### SHA references
 
 16c999e8c71134401a78d4d46435517b2271d6ac
 mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
@@ -103,72 +168,26 @@ mojombo/github-flavored-markdown#1
 @hernanimedeiros
 
 
-## Tables
-
-| Items  | Description |
-| -------| ----------- |
-| item 1 | This descri |
-| item 2 | This description is out of boundaries? |
-| item 3 larger! | This description is out of boundaries? |
-
-Right aligned columns
-
-| Items  | Description |
-| ------:| -----------:|
-| item 1 | Description |
-
-
-## Task list
-
-- [x] Done
-- [x] This one already done
-- [x] This one I just finished now!
-- [ ] I will do it tomorow
-
-
-## Images
-
-Regular image
-![Vue logo]
-(https://vuejs.org/images/logo.png "The Vue logo")
-
-Image with footenote
-![Alt text][image_id]
-
-[image_id]
-(https://nuxtjs.org/logos/nuxt-emoji.png "The Nuxt logo")
-
-
-## Typographic replacements
-
-(c) (C) (r) (R) (tm) (TM) (p) (P) +-
-test.. test... test..... test?..... test!....
-!!!!!! ???? ,,  -- ---
-"Smartypants, double quotes" and 'single quotes'
-
 
 ## Plugins
 
 Welcome to the [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it-plugin)
 
-### Emojies
+### [Emojies](https://github.com/markdown-it/markdown-it-emoji)
 
 * Shortcuts: :-) :-( 8-) ;)
-* Classic: :wink: :crush: :cry: :tear: :laughing: :yum:
 
-### Subscript/Superscript
+### [Subscript](https://github.com/markdown-it/markdown-it-sub) / [Superscript](https://github.com/markdown-it/markdown-it-sup)
 
-* Subscript: 29<sup>th</sup>
 * Subscript: 19^th^
 * Superscript: H~2~O
-* Superscript: H<sub>2</sub>O
 
-### Inserted text/Marked text
+### [Inserted text](https://github.com/markdown-it/markdown-it-ins) / [Marked text](https://github.com/markdown-it/markdown-it-mark)
 
-* ++I am a inserted text++
-* ==I am a inserted text==
+* ++ I am a inserted text ++
+* == I am a inserted text ==
 
-### Footnotes
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
 * Check my footnote [^first]
 * Check my another footnote [^second]
@@ -177,7 +196,7 @@ Welcome to the [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it
 [^first]: Footnote with __can have some style__.
 [^second]: OR not
 
-### Definition list
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
 
 * Regular style
 List A
@@ -196,7 +215,7 @@ List B
   ~ Item 3
   ~ Item 4
 
-### Abbreviations
+### [Abbreviations](https://github.com/markdown-it/markdown-it-abbr)
 
 This is HTML abbreviation example.
 
@@ -204,9 +223,9 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 *[HTML]: Hyper Text Markup Language
 
-### Custom containers
+### [Custom containers](https://github.com/markdown-it/markdown-it-container)
 
-::: success
+::: warning
 *Don't release me*
 :::
 
