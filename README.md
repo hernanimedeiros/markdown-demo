@@ -128,15 +128,6 @@ Image with footenote:
 
 [image_id]:https://nuxtjs.org/logos/nuxt-emoji.png "The Nuxt logo"
 
-
-## Typographic replacements
-
-* (c) (C) (r) (R) (tm) (TM) (p) (P) +-
-* test.. test... test..... test?..... test!....
-* !!!!!! ???? ,,  -- ---
-* "Smartypants, double quotes" and 'single quotes'
-
-
 ### Subscript/Superscript
 
 * Subscript: 29<sup>th</sup>
@@ -159,7 +150,9 @@ mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
 ## Issue references within a repository
 
 #1
+
 mojombo#1
+
 mojombo/github-flavored-markdown#1
 
 
@@ -186,6 +179,13 @@ Welcome to the [syntax plugins](https://www.npmjs.org/browse/keyword/markdown-it
 
 * ++ I am a inserted text ++
 * == I am a inserted text ==
+
+### Typographic replacements
+
+* (c) (C) (r) (R) (tm) (TM) (p) (P) +-
+* test.. test... test..... test?..... test!....
+* !!!!!! ???? ,,  -- ---
+* "Smartypants, double quotes" and 'single quotes'
 
 ### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
 
