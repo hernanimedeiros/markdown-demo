@@ -2,10 +2,10 @@
 
 A repository to test some markdown
 
-## [Main](./demos/main.md)
+## [Main](./blob/main/demos/main.md)
 Some basic examples
 
-## [Side notes](./demos/side-notes.md)
+## [Side notes](./blob/main/demos/side_notes.md)
 Only for descriptions and comments of Issues and Pull Requests
 
 ## References
