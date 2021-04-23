@@ -2,10 +2,10 @@
 
 A repository to test some markdown
 
-## [Main](https://github.com/hernanimedeiros/markdown-demo/main.md)
+## [Main](./demos/main.md)
 Some basic examples
 
-## [Side notes](https://github.com/hernanimedeiros/markdown-demo/side-notes.md)
+## [Side notes](./demos/side-notes.md)
 Only for descriptions and comments of Issues and Pull Requests
 
 ## References
