@@ -2,7 +2,7 @@
 
 A repository to test some markdown
 
-## [Main](demos/main.md)
+## [Basic](demos/basic.md)
 Some basic examples
 
 ## [Side notes](demos/side_notes.md)
